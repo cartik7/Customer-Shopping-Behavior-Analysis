@@ -41,3 +41,119 @@ Key Variables
 | Feedback              | Review Rating                                   |
 | Time Factors          | Season, Purchase Frequency                      |
 
+
+🛠️ Tech Stack
+
+Python – Data cleaning, preprocessing, feature engineering, and data preparation
+
+Pandas – Data manipulation and transformation
+
+SQLAlchemy – Database connection and data loading
+
+PostgreSQL – Data storage and SQL analysis
+
+SQL – Business query analysis and insight generation
+
+Power BI – Interactive dashboard development and data visualization
+
+Jupyter Notebook – Analysis and data preparation workflow
+
+
+🔄 Project Workflow
+
+1. Data Cleaning & Preparation
+   
+Inspected data using df.info() and df.describe()
+
+Standardized column names to snake_case
+
+Handled missing values in the review_rating column using category median imputation
+
+Removed redundant columns such as promo_code_used
+
+
+Created new features including:
+
+age_group
+
+purchase_frequency_days
+
+
+3. Database Integration
+   
+Imported the cleaned dataset into PostgreSQL
+
+Performed SQL analysis to answer business questions
+
+
+5. Exploratory Data Analysis (EDA)
+   
+Analyzed customer demographics
+
+Studied spending patterns by age and gender
+
+Evaluated category-wise sales performance
+
+Examined subscription and shipping preferences
+
+
+7. Dashboard Development
+
+Created an interactive Power BI dashboard to visualize:
+
+Revenue trends
+
+Customer segments
+
+Product performance
+
+Subscription insights
+
+Discount impact
+
+Demographic analysis
+
+
+📈 Key Insights
+
+Clothing generated the highest revenue and sales volume.
+
+Young adults contributed the largest share of revenue.
+
+Male customers generated higher overall revenue in this dataset.
+
+1,053 customers had active subscriptions.
+
+Subscribers and non-subscribers showed similar average spending behavior.
+
+839 discounted purchases exceeded the average purchase amount.
+
+Top-rated products included Gloves, Sandals, Boots, Hat, and Skirt.
+
+3,116 customers were classified as loyal customers.
+
+
+📂 Project Structure
+
+Customer-Shopping-Behavior-Analysis/
+│
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── notebooks/
+│   └── Cust_shop_Behaviour_Analysis.ipynb
+│
+├── sql/
+│   └── COMP_DA.sql
+│
+├── dashboard/
+│   └── Customer_Shopping_Analysis_Dashboard.pbix
+│
+├── presentation/
+│   └── Customer_Shopping_Behavior_Analysis.pptx
+│
+├── README.md
+└── requirements.txt
+
+
+⭐ If you found this project useful, consider giving it a star.
